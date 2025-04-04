@@ -1,12 +1,39 @@
-# React + Vite
+# 💼 Personal Portfolio Website
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A responsive and customizable personal portfolio website built using **React**, **Vite**, and **JavaScript**, designed to showcase your skills, projects, and achievements.
 
-Currently, two official plugins are available:
+🔗 **Live Demo**: [https://hiteshyasam.github.io/portfollio/](https://hiteshyasam.github.io/portfollio/)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📌 Features
 
-## Expanding the ESLint configuration
+- 🖥️ Single Page Application (SPA) with smooth routing
+- 🧩 Modular and component-based architecture
+- 📱 Fully responsive design for mobile, tablet, and desktop
+- 🎨 Clean UI using Flexbox and Grid
+- 🔄 Easy content management using a centralized `myInfo.js` file
+- 🧠 Data abstraction allows content changes without touching UI code
+- 🚀 Hosted using GitHub Pages
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ Tech Stack
+
+- **Frontend**: React, Vite, JavaScript, HTML5, CSS3
+- **Styling**: Custom CSS, Flexbox, Grid Layout
+- **State Management**: React Hooks, Props
+- **Version Control**: Git, GitHub
+- **Deployment**: GitHub Pages
+
+## 📁 Folder Structure
+
+```plaintext
+portfollio/
+├── public/                  # Static assets
+├── src/
+│   ├── assets/              # Images and icons
+│   ├── components/          # Reusable components like Navbar, Cards, etc.
+│   ├── pages/               # Home, About, Projects, Contact sections
+│   ├── utils/               # Helper functions (if any)
+│   ├── myInfo.js            # Centralized file for all portfolio data
+│   └── App.jsx              # Main App component
+├── index.html
+├── package.json
+└── README.md

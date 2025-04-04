@@ -2,7 +2,7 @@
 
 A responsive and customizable personal portfolio website built using **React**, **Vite**, and **JavaScript**, designed to showcase your skills, projects, and achievements.
 
-🔗 **Live Demo**: [https://hiteshyasam.github.io/portfollio/](https://hiteshyasam.github.io/portfollio/)
+🔗 **Live Demo**: [https://hiteshyasam.netlify.app/](https://hiteshyasam.netlify.app/)
 
 ## 📌 Features
 

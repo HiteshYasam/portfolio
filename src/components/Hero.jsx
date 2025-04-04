@@ -1,4 +1,4 @@
-import React  from 'react'
+import React, { useState } from 'react'
 import profile from "/assets/profile.jpeg";
 import INFO from './myInfo';
 import "./Hero.css"

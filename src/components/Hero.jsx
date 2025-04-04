@@ -20,7 +20,7 @@ const Hero = () => {
             <h2>I'm a <span>{typeSkill}{<Cursor/>}</span></h2>
             <p>{INFO.herosec.objective}</p>
             <div className="mainBtns">
-                <button className='mainBtn'><a target='blank' href={INFO.herosec.contact}>Resume</a></button>
+                <button className='mainBtn'><a target='blank' href={INFO.herosec.resume}>Resume</a></button>
                 <button className='mainBtn'><a href="#contact">Contact</a></button>
             </div>
         </div>

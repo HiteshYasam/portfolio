@@ -24,6 +24,7 @@
   text-decoration: none;
   color: wheat;
   color: var(--color-text);
+  font-family: "roboto", cursive;
 }
 
 
@@ -46,7 +47,31 @@
   font-size: 25px;
   color: var(--color-text);
   text-decoration: none;
+  position: relative;
+  display: inline-block;
+  transition: transform 0.3s ease;
 }
+
+.navMenuItems > li > a:hover{
+  color: var(--color-secondary);
+}
+
+.navMenuItems > li > a::after {
+  content: "";
+  position: absolute;
+  left: 50%;
+  bottom: -5px;
+  transform: translateX(-50%);
+  width: 0%;
+  height: 2px;
+  background-color: var(--color-hover); /* Line color */
+  transition: width 0.3s ease;
+}
+
+.navMenuItems > li > a:hover::after {
+  width: 100%;
+}
+
 
 @media screen and (max-width: 830px) {
   .navbar {

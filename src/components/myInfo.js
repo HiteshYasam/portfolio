@@ -3,7 +3,7 @@ const INFO = {
         title: "Hi, I'm Hitesh",
         profession: ["Software Engineer", "Web Developer"],
         objective: "I am Looking for a responsible Career opportunity in a reputable organization to utilize my technical skills for the growth of the organization as well as to enhance my knowledge about new and emerging trends in the IT sector.",
-        contact: 'https://drive.google.com/file/d/11IrDuqjaUaCWOEBwN8ngU9OpSIvEJtqf/view?usp=drive_link'
+        resume: 'https://drive.google.com/file/d/11IrDuqjaUaCWOEBwN8ngU9OpSIvEJtqf/view?usp=drive_link'
     },
 
     skillsec : {

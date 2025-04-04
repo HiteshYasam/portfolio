@@ -13,7 +13,7 @@ const Navbar = () => {
           Hitesh Yasam
         </a>
         <div className="navMenu">
-        <div className="navMenuBtn" onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <IoClose /> : <RxHamburgerMenu />}</div>
+        <div className="navMenuBtn" onClick={() => setMenuOpen(!menuOpen)}>{menuOpen ? <IoClose size={24} /> : <RxHamburgerMenu size={24} />}</div>
           <ul
             className={`navMenuItems ${menuOpen ? "menuOpen" : ""}`}
             onClick={() => setMenuOpen(false)}

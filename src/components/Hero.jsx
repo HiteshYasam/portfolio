@@ -12,6 +12,9 @@ const Hero = () => {
         'typeSpeed': 70,
         'deleteSpeed': 40,
     });
+
+    const [showResume, setShowResume] = useState(false);
+
     return ( <section id='about' className='container'>
         <div className="redun"></div>
         <div className='main'>
@@ -20,7 +23,7 @@ const Hero = () => {
             <h2>I'm a <span>{typeSkill}{<Cursor/>}</span></h2>
             <p>{INFO.herosec.objective}</p>
             <div className="mainBtns">
-                <button className='mainBtn'><a target='blank' href={INFO.herosec.resume}>Resume</a></button>
+                <button className='mainBtn' onClick={() => setShowResume(true)}><a>Resume</a></button>
                 <button className='mainBtn'><a href="#contact">Contact</a></button>
             </div>
         </div>
@@ -28,6 +31,15 @@ const Hero = () => {
             <img src={profile} alt="profile" />
         </div>
         </div>
+
+        {showResume && (
+        <div className="resumeModal" onClick={() => setShowResume(false)}>
+          <div className="resumeContent" onClick={(e) => e.stopPropagation()}>
+            <button className="closeModal" onClick={() => setShowResume(false)}>X</button>
+            <iframe src="/resume.pdf" title="Resume" width="100%" height="100%"></iframe>
+          </div>
+        </div>
+      )}
     </section>
     )
 }

@@ -8,7 +8,7 @@ const INFO = {
 
     skillsec : {
         title: "My Skills",
-        skills : ["C++", "JavaScript", "HTML", "CSS", "TailWind CSS", "Node JS", "React JS"],
+        skills : ["C++", "C", "Python" , "JavaScript", "HTML", "CSS", "TailWind CSS", "Node JS", "React JS", "MongoDB", "MySql", "Drupal"],
     },
 
     projectsec :{

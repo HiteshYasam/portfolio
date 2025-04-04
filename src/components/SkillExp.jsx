@@ -11,6 +11,10 @@ import { RiReactjsFill } from "react-icons/ri";
 import { SiMongodb } from "react-icons/si";
 import { RiTailwindCssFill } from "react-icons/ri";
 import { TbHexagonLetterC } from "react-icons/tb";
+import { TfiDrupal } from "react-icons/tfi";
+import { FaPython } from "react-icons/fa";
+import { SiMysql } from "react-icons/si";
+import { IoGitBranchOutline } from "react-icons/io5";
 
 const SkillExp = () => {
   const [typeSkill] = useTypewriter({
@@ -33,6 +37,10 @@ const SkillExp = () => {
             </div>
             <div className="skill">
               <span><TbHexagonLetterC /></span>
+              <p>C</p>
+            </div>
+            <div className="skill">
+              <span><FaPython /></span>
               <p>C</p>
             </div>
             <div className="skill">
@@ -63,20 +71,40 @@ const SkillExp = () => {
             <span><SiMongodb /></span>
               <p>Mongo DB</p>
             </div>
+            <div className="skill">
+            <span><SiMysql/></span>
+              <p>Mysql</p>
+            </div>
+            <div className="skill">
+            <span><TfiDrupal /></span>
+              <p>Drupal</p>
+            </div>
+            <div className="skill">
+            <span><IoGitBranchOutline /></span>
+              <p>git</p>
+            </div>
 
           </div>
         </div>
         <div className="skillRight">
-          <h2>Work Experience</h2>
-          <div className="work">
-            <h3>Intern at RCI DRDO</h3>
-            <p>I have worked as an intern in RCI(Research Center Imarat) DRDO on the working, development and optimi- sation of energy management system for supercapacitors and batteries that are used in aerospace applications. Conducted experiments and analysed data on how a BMS(Battery Management System) works along with visual understanding of various futuristic technologies and current technologies.</p>
-          </div>
-          <div className="work">
-            <h3>Intern at OctaNet Services</h3>
-            <p>I have worked as an intern in OctaNet Services as a Full Stack Web Developer on two projects: Landing Page built using HTML, CSS and JavaScript and a Todo List built using HTML, CSS, JavaScript abd React JS. This internship boosted my understanding in front-end  development</p>
-          </div>
-        </div>
+  <h2>Work Experience</h2>
+
+  <div className="work">
+    <h3>Research Intern – RCI, DRDO</h3>
+    <p>
+      As a Research Intern at the Research Centre Imarat (RCI), DRDO, I worked on energy management systems for supercapacitors and batteries used in aerospace applications. My role involved researching various power sources, including independent and controlled supplies, to improve energy efficiency. I analyzed the use of supercapacitors in hybrid and aerospace systems and contributed to the design and simulation of a Battery Management System (BMS) with advanced protection mechanisms. I also explored centralized, modular, and distributed BMS architectures, and gained hands-on experience with MOSFET-based power regulation, thermal management, and circuit simulation techniques.
+    </p>
+  </div>
+
+  <div className="work">
+    <h3>Web Development Intern – OctaNet Services</h3>
+    <p>
+      During my internship at OctaNet Services, I worked as a Full Stack Web Developer and contributed to the development of two projects. I built a responsive landing page using HTML, CSS, and JavaScript, focused on creating an engaging user experience. Additionally, I developed a Todo List application using React.js with LocalStorage integration for persistent data management. This experience enhanced my front-end development skills, particularly in building interactive UIs using state management, event handling, and reusable components. I also improved my understanding of full-stack development and front-end performance optimization.
+    </p>
+  </div>
+</div>
+
+
     </div>
     </div>
   )

@@ -23,11 +23,11 @@ const INFO = {
                 link: "https://github.com/HiteshYasam/portfolio"
             },
             {   
-                title: "Portfolio Website",
+                title: "BigSync",
                 image: "..\\public\\assets\\portfolioImg.png",
                 description : "Software built for fault classification and dectection.FastAPI handles Excel-based current data processing, enabling real-time fault classification via REST APIs.The React frontend features Chart.js, Material-UI design, and file upload functionality.Custom DFT and detection algorithms, built with NumPy and Pandas.",
                 skills: "Python | FastAPI | React | Chart.js | Pandas | NumPy | Excel Data",
-                link: "https://github.com/HiteshYasam/portfolio"
+                link: "https://github.com/HiteshYasam/BigSync"
             },
             {   
                 title: "Spotify Clone",
@@ -48,7 +48,7 @@ const INFO = {
                 image: "/assets/rsdImg.png",
                 description : "Responsive website for RSD 7.0: Pravaha, the flagship research event of IIT Palakkad. Designed a clean, user-friendly interface using HTML, CSS (Bootstrap), and JavaScript. Built dynamic sections for event details, registration, schedule, and team introduction. Integrated external links for submissions, registrations, and guidelines.",
                 skills: "HTML | CSS | JS",
-                link: "https://github.com/HiteshYasam/TodoList"
+                link: "https://github.com/HiteshYasam/RSD_7.0"
             },
             {   
                 title: "Twitter Clone",

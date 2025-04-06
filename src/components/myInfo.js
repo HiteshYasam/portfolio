@@ -26,7 +26,7 @@ const INFO = {
                 title: "BigSync",
                 image: "..\\public\\assets\\portfolioImg.png",
                 description : "Software built for fault classification and dectection.FastAPI handles Excel-based current data processing, enabling real-time fault classification via REST APIs.The React frontend features Chart.js, Material-UI design, and file upload functionality.Custom DFT and detection algorithms, built with NumPy and Pandas.",
-                skills: "Python | FastAPI | React | Chart.js | Pandas | NumPy | Excel Data",
+                skills: "Python | FastAPI | ReactJS | Chart.js | Pandas | NumPy | Excel Processing",
                 link: "https://github.com/HiteshYasam/BigSync"
             },
             {   

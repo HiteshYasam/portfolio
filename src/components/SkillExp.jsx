@@ -41,7 +41,7 @@ const SkillExp = () => {
             </div>
             <div className="skill">
               <span><FaPython /></span>
-              <p>C</p>
+              <p>Python</p>
             </div>
             <div className="skill">
               <span><FaHtml5 /></span>
